@@ -129,8 +129,27 @@ body {
       object-fit: cover;
       border: 3px solid;
       border-color: var(--text-decoration-color);
+      background: url(assets/bulka.jpg);
   }
-
+  .contact-info__avatar:hover 
+  {
+    background: url(assets/bulka2.jpg);
+  
+  }
+  .animate:active{
+      width: 100px;
+      width: 100px;
+      height: 95px;
+      border: solid rgb(156, 221, 194)
+      -webkit-box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+        -moz-box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+    box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+  }
+  .animate:active
+  {
+    background: url(assets/bulka2.jpg);
+    background-color: #ff9a00;
+  }
   .intro {
     display: flex;
     justify-content: start;
@@ -262,4 +281,9 @@ body {
     color: var(--secondary-text-color);
 }
 
+.my_resume{
+    display: block;
+    border:solid 2px rgb(224, 198, 49);
+    border-radius: 5px;
+}
 
