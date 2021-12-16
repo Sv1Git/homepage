@@ -262,3 +262,12 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.tim{
+    width: 300px;
+    height: 200px;
+    border: solid rgb(156, 221, 194)
+    -webkit-box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+-moz-box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+}
