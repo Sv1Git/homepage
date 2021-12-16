@@ -190,6 +190,7 @@ body {
 .experiences {
     flex: 1 1 60%;
     margin-right: 50px;
+    
 }
 
 .experiences__header {
@@ -282,8 +283,23 @@ body {
 }
 
 .my_resume{
-    display: block;
     border:solid 2px rgb(224, 198, 49);
-    border-radius: 5px;
+    border-radius: 5px; 
+
 }
 
+.tim{
+    width: 30px;
+    height: 20px;
+     
+}
+
+.bulka{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    border: solid rgb(156, 221, 194)
+    -webkit-box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+-moz-box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+}
