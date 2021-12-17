@@ -108,16 +108,7 @@
             }
         }
     }
-    
-    //animate
-    var sdvig = 0;
-    var tmer_anim;
-    function anime() {
-        u.style.marginLeft = sdvig + "px";
-        sdvig = sdvig + 3;
-        timer_anim = setTimeout(anime, 100);
-    }
-    
+       
     //time
     var d = document.querySelector(".timer");
     var t = new Date();

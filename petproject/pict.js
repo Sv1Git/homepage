@@ -32,7 +32,7 @@ if(this.i==6) {
     document.body.style.backgroundColor="black";
 }
 
-var data;//your data
+var data;
 localStorage.setItem('p',window.picter) ;
 
     }
