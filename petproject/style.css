@@ -9,12 +9,12 @@
     margin-left: -120%;
     margin-top: -35%;
     position: relative;
-    background-image: url(image/ded.png);
+    background-image: url(image_pet/ded.png);
     background-size: cover;  
 }
 .season:hover
 {
-    background-image: url(image/ded.jpg);
+    background-image: url(image_pet/ded.jpg);
     background-size: cover;  
 }
 
@@ -24,7 +24,7 @@
     width: 150px;
     height: 150px;
     margin: 0 0 0 20px;
-    background-image: url(image/cloc.png);
+    background-image: url(image_pet/cloc.png);
     background-size:contain; 
 
 }
@@ -57,7 +57,7 @@
     align-items:center;
     flex-direction:row;
     padding: 45px;
-    background-image: url(image/fon3.jpg);
+    background-image: url(image_pet/fon3.jpg);
     background-size: contain;
     border-radius: 10px;
 

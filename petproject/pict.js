@@ -10,20 +10,20 @@ class Pict
     asi()
     {
 if(this.i==3) {
-document.querySelector(".season").style.backgroundImage="url('./image/3.jpg')";
-window.picter="url('./image/3.jpg')"
+document.querySelector(".season").style.backgroundImage="url('./image_pet/3.jpg')";
+window.picter="url('./image_pet/3.jpg')"
 }
 if(this.i==2) {
-document.querySelector(".season").style.backgroundImage="url('./image/осень2.png')";
-window.picter="url('./image/snou.png')"
+document.querySelector(".season").style.backgroundImage="url('./image_pet/осень2.png')";
+window.picter="url('./image_pet/snou.png')"
 }
 if(this.i==1) {
-document.querySelector(".season").style.backgroundImage="url('./image/ded.png')";
-window.picter="url('./image/ded.png')"
+document.querySelector(".season").style.backgroundImage="url('./image_pet/ded.png')";
+window.picter="url('./image_pet/ded.png')"
 }
 if(this.i==4) {
-    document.querySelector(".season").style.backgroundImage="url('./image/sun.png')";
-    window.picter="url('./image/sun.png')"
+    document.querySelector(".season").style.backgroundImage="url('./image_pet/sun.png')";
+    window.picter="url('./image_pet/sun.png')"
 }
 if(this.i==5) {
     document.body.style.backgroundColor="white";
