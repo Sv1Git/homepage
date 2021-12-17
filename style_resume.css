@@ -86,7 +86,7 @@ box-shadow: 15px 14px 8px 1px rgba(34, 60, 80, 0.25);
         transition: 0.1s;
         padding: 0;
         margin: 0;
-        bottom: 230px;
+        bottom: 250px;
         list-style: none;
     }
 .hoddy{
@@ -178,3 +178,20 @@ box-shadow: 15px 14px 8px 1px rgba(34, 60, 80, 0.25);
         background: url("image/i4.png") center no-repeat;
         background-size: contain;
       }
+h1{
+  font-size: 50px;
+  font-weight: normal;
+  text-shadow: 0px 3px 0px #b2a98f,
+  0px 14px 10px rgba(0,0,0,0.15),
+  0px 24px 2px rgba(0,0,0,0.1),
+  0px 34px 30px rgba(0,0,0,0.1);
+color: steelblue;
+transition: all 1s;
+           text-decoration-color: coral;
+}
+
+h1:hover {
+        
+  color: transparent;
+  transition: all .5s;
+}
