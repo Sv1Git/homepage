@@ -1,4 +1,3 @@
-/*general style*/
 * {
     margin: 0;
     padding: 0;
@@ -68,7 +67,7 @@ body {
         margin-right: 0;
     }
 }
-/*contact info styles*/
+
 .contact-info__header,
   .contact-info__sub-header {
       text-align: center;
@@ -130,8 +129,27 @@ body {
       object-fit: cover;
       border: 3px solid;
       border-color: var(--text-decoration-color);
+      background: url(assets/bulka.jpg);
   }
-  /*Intro and skills styles*/
+  .contact-info__avatar:hover 
+  {
+    background: url(assets/bulka2.jpg);
+  
+  }
+  .animate:active{
+      width: 100px;
+      width: 100px;
+      height: 95px;
+      border: solid rgb(156, 221, 194)
+      -webkit-box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+        -moz-box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+    box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+  }
+  .animate:active
+  {
+    background: url(assets/bulka2.jpg);
+    background-color: #ff9a00;
+  }
   .intro {
     display: flex;
     justify-content: start;
@@ -168,10 +186,11 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
 }
-/*Experience and additonal info styles*/
+
 .experiences {
     flex: 1 1 60%;
     margin-right: 50px;
+    
 }
 
 .experiences__header {
@@ -263,11 +282,56 @@ body {
     color: var(--secondary-text-color);
 }
 
+.my_resume{
+    border:solid 2px rgb(224, 198, 49);
+    border-radius: 5px; 
+
+}
+
 .tim{
-    width: 300px;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bulka{
+    display: inline-block;
+    width: 400px;
     height: 200px;
     border: solid rgb(156, 221, 194)
-    -webkit-box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
--moz-box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
-box-shadow: 21px 21px 19px 3px rgba(34, 60, 80, 0.49);
+    -webkit-box-shadow: -29px 30px 32px -10px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -29px 30px 32px -10px rgba(34, 60, 80, 0.2);
+    box-shadow: -29px 30px 32px -10px rgba(34, 60, 80, 0.2);
+    margin:20px;
+    transform: rotate(10deg);
+    padding:30px;
+    
+}
+.foto_bulka{
+    background-image:url(assets/bulka3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+[tooltip]::before,
+[tooltip]::after {
+    line-height: 1;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    display: none;
+    opacity: 0;
+
+    /* opinions */
+    text-transform: none; 
+    font-size: .9em;
+}
+.toolt{
+    visibility: hidden;
+}
+.foto_bulka:hover .toolt{
+    visibility: visible;
+    transition: top 1s ease-out 0.5s;
+    
 }
